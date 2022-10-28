@@ -1,0 +1,5 @@
+SKU: 333003
+Full product name: I2C LCD driver board
+Country of origin: Croatia
+HS tariff code: 85340090
+EAN/UPC barcode: 
