@@ -7,7 +7,7 @@
   (title_block
     (title "easyC LCD driver")
     (date "2021-06-09")
-    (rev "V1.1.1.")
+    (rev "V1.2.2.")
     (company "SOLDERED")
     (comment 1 "333003")
   )
@@ -2224,7 +2224,7 @@
   (symbol (lib_id "e-radionica.com schematics:SMD_JUMPER_3_PAD_TRACE") (at 53.34 125.73 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2b49e721-ea38-4a64-8a71-f29377eba848)
-    (property "Reference" "JP4" (id 0) (at 54.61 128.27 0))
+    (property "Reference" "JP1" (id 0) (at 54.61 128.27 0))
     (property "Value" "SMD_JUMPER_3_PAD_TRACE" (id 1) (at 53.34 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2605,7 +2605,7 @@
   (symbol (lib_id "e-radionica.com schematics:SMD_JUMPER") (at 130.81 51.435 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8d8e243d-b0f0-425e-9459-263c8975d766)
-    (property "Reference" "JP3" (id 0) (at 130.81 51.435 90)
+    (property "Reference" "JP5" (id 0) (at 130.81 51.435 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMD_JUMPER" (id 1) (at 132.08 52.705 90)
@@ -2876,7 +2876,7 @@
   (symbol (lib_id "e-radionica.com schematics:SMD_JUMPER") (at 110.49 51.435 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b8e36e78-68ff-435c-bf6e-b1d0c7d5ec82)
-    (property "Reference" "JP1" (id 0) (at 110.49 51.435 90)
+    (property "Reference" "JP3" (id 0) (at 110.49 51.435 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMD_JUMPER" (id 1) (at 111.76 52.705 90)
@@ -3079,7 +3079,7 @@
   (symbol (lib_id "e-radionica.com schematics:SMD_JUMPER") (at 120.65 51.435 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dc076157-bc0f-4f8c-9ad5-ee40dc09fe70)
-    (property "Reference" "JP2" (id 0) (at 120.65 51.435 90)
+    (property "Reference" "JP4" (id 0) (at 120.65 51.435 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMD_JUMPER" (id 1) (at 121.92 52.705 90)
@@ -3098,7 +3098,7 @@
   (symbol (lib_id "e-radionica.com schematics:SMD_JUMPER_3_PAD_TRACE") (at 93.98 125.73 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ee854cff-3cfa-4451-8c61-0b4083d5bd90)
-    (property "Reference" "JP5" (id 0) (at 95.25 128.27 0))
+    (property "Reference" "JP2" (id 0) (at 95.25 128.27 0))
     (property "Value" "SMD_JUMPER_3_PAD_TRACE" (id 1) (at 93.98 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3277,20 +3277,20 @@
     (path "/29606253-c302-4db3-bdf2-e172f4b4c885"
       (reference "H2") (unit 1) (value "HOLE_3.2mm") (footprint "e-radionica.com footprinti:HOLE_3.2mm")
     )
-    (path "/b8e36e78-68ff-435c-bf6e-b1d0c7d5ec82"
-      (reference "JP1") (unit 1) (value "SMD_JUMPER") (footprint "e-radionica.com footprinti:SMD_JUMPER")
-    )
-    (path "/dc076157-bc0f-4f8c-9ad5-ee40dc09fe70"
-      (reference "JP2") (unit 1) (value "SMD_JUMPER") (footprint "e-radionica.com footprinti:SMD_JUMPER")
-    )
-    (path "/8d8e243d-b0f0-425e-9459-263c8975d766"
-      (reference "JP3") (unit 1) (value "SMD_JUMPER") (footprint "e-radionica.com footprinti:SMD_JUMPER")
-    )
     (path "/2b49e721-ea38-4a64-8a71-f29377eba848"
-      (reference "JP4") (unit 1) (value "SMD_JUMPER_3_PAD_TRACE") (footprint "e-radionica.com footprinti:SMD_JUMPER_3_PAD_TRACE")
+      (reference "JP1") (unit 1) (value "SMD_JUMPER_3_PAD_TRACE") (footprint "e-radionica.com footprinti:SMD_JUMPER_3_PAD_TRACE")
     )
     (path "/ee854cff-3cfa-4451-8c61-0b4083d5bd90"
-      (reference "JP5") (unit 1) (value "SMD_JUMPER_3_PAD_TRACE") (footprint "e-radionica.com footprinti:SMD_JUMPER_3_PAD_TRACE")
+      (reference "JP2") (unit 1) (value "SMD_JUMPER_3_PAD_TRACE") (footprint "e-radionica.com footprinti:SMD_JUMPER_3_PAD_TRACE")
+    )
+    (path "/b8e36e78-68ff-435c-bf6e-b1d0c7d5ec82"
+      (reference "JP3") (unit 1) (value "SMD_JUMPER") (footprint "e-radionica.com footprinti:SMD_JUMPER")
+    )
+    (path "/dc076157-bc0f-4f8c-9ad5-ee40dc09fe70"
+      (reference "JP4") (unit 1) (value "SMD_JUMPER") (footprint "e-radionica.com footprinti:SMD_JUMPER")
+    )
+    (path "/8d8e243d-b0f0-425e-9459-263c8975d766"
+      (reference "JP5") (unit 1) (value "SMD_JUMPER") (footprint "e-radionica.com footprinti:SMD_JUMPER")
     )
     (path "/fcd02546-df7a-4ae6-8c7e-ba267fa354ba"
       (reference "K1") (unit 1) (value "easyC-SMD") (footprint "e-radionica.com footprinti:easyC-connector")
